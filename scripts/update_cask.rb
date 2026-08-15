@@ -79,7 +79,7 @@ def render_cask(config, version, arm_sha256, intel_sha256)
       end
 
       auto_updates true
-      depends_on macos: :high_sierra
+      depends_on :macos
 
       app #{config.fetch("app").inspect}
     end
