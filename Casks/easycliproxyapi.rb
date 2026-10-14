@@ -1,9 +1,9 @@
 cask "easycliproxyapi" do
   arch arm: "aarch64", intel: "amd64"
 
-  version "0.3.37"
-  sha256 arm:   "641d41fb923131ec8e27d0fdcd2856146afdfb42ee18c234f86ae9efa706b340",
-         intel: "1c1c40ed4fe25192037f923590304604287478abbc88e6b07db4e63be879350e"
+  version "0.3.38"
+  sha256 arm:   "069b2f3822ffa33171f11f40bbf77f7ca7163ceee33985d5f9602f0fe3a7042c",
+         intel: "1056686d7bd2cf5cce195f55209c248023979188687d773e8ce972608ef8c848"
 
   url "https://github.com/router-for-me/EasyCLIProxyAPI/releases/download/v#{version}/EasyCLIProxyAPI-v#{version}-Darwin-#{arch}.dmg"
   name "EasyCLIProxyAPI"
